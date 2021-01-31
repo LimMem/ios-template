@@ -14,8 +14,6 @@
 		E927F8C925C5A16100CCA408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E927F8C825C5A16100CCA408 /* Assets.xcassets */; };
 		E927F8CC25C5A16100CCA408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E927F8CA25C5A16100CCA408 /* LaunchScreen.storyboard */; };
 		E927F8CF25C5A16100CCA408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E927F8CE25C5A16100CCA408 /* main.m */; };
-		E927F8D925C5A16100CCA408 /* ____APPNAME___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E927F8D825C5A16100CCA408 /* ____APPNAME___Tests.m */; };
-		E927F8E425C5A16100CCA408 /* ____APPNAME___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E927F8E325C5A16100CCA408 /* ____APPNAME___UITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,11 +47,7 @@
 		E927F8CD25C5A16100CCA408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E927F8CE25C5A16100CCA408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E927F8D425C5A16100CCA408 /* #{__APPNAME__}Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "#{__APPNAME__}Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E927F8D825C5A16100CCA408 /* ____APPNAME___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____APPNAME___Tests.m"; sourceTree = "<group>"; };
-		E927F8DA25C5A16100CCA408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E927F8DF25C5A16100CCA408 /* #{__APPNAME__}UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "#{__APPNAME__}UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E927F8E325C5A16100CCA408 /* ____APPNAME___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____APPNAME___UITests.m"; sourceTree = "<group>"; };
-		E927F8E525C5A16100CCA408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				E927F8BB25C5A15D00CCA408 /* #{__APPNAME__} */,
-				E927F8D725C5A16100CCA408 /* #{__APPNAME__}Tests */,
-				E927F8E225C5A16100CCA408 /* #{__APPNAME__}UITests */,
 				E927F8BA25C5A15D00CCA408 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,24 +109,6 @@
 				E927F8CE25C5A16100CCA408 /* main.m */,
 			);
 			path = "#{__APPNAME__}";
-			sourceTree = "<group>";
-		};
-		E927F8D725C5A16100CCA408 /* #{__APPNAME__}Tests */ = {
-			isa = PBXGroup;
-			children = (
-				E927F8D825C5A16100CCA408 /* ____APPNAME___Tests.m */,
-				E927F8DA25C5A16100CCA408 /* Info.plist */,
-			);
-			path = "#{__APPNAME__}Tests";
-			sourceTree = "<group>";
-		};
-		E927F8E225C5A16100CCA408 /* #{__APPNAME__}UITests */ = {
-			isa = PBXGroup;
-			children = (
-				E927F8E325C5A16100CCA408 /* ____APPNAME___UITests.m */,
-				E927F8E525C5A16100CCA408 /* Info.plist */,
-			);
-			path = "#{__APPNAME__}UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E927F8D925C5A16100CCA408 /* ____APPNAME___Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E927F8E425C5A16100CCA408 /* ____APPNAME___UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
