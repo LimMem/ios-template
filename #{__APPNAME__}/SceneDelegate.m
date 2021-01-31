@@ -2,7 +2,7 @@
 //  SceneDelegate.m
 //  #{__APPNAME__}
 //
-//  Created by 秦传龙 on 2021/1/30.
+//  Created by iwhale on 2021/1/30.
 //
 
 #import "SceneDelegate.h"
